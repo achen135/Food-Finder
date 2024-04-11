@@ -1,0 +1,12 @@
+.body{
+    margin: 4em 7em;
+}
+
+.card{
+    box-shadow: 2px 2px 2px 1px rgb(0, 0, 0, 10%);
+}
+
+.card:hover{
+    background-color: lightgray;
+    transition: ease, 0.2s;
+}
