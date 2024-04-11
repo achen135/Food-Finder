@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react'
 import { Link, useParams } from 'react-router-dom'
 
 export default function MealsByCategoryGrid() {
-
   const [meals, setMeals] = useState([]);
   const { id } = useParams();
 
